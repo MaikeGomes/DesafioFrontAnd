@@ -1,3 +1,22 @@
-.info-card{
-    
+.card-perfil {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.foto-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
 }
